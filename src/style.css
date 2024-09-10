@@ -1,8 +1,64 @@
+body {
+  background-color: #fcfaff;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.world-clock-container {
+  background-color: white;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 3px;
+}
+
 h1 {
-  color: blue;
   text-align: center;
+  margin-top: 0;
+  font-size: 48px;
+}
+
+select {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.city-info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+.city-info:last-child {
+  border: none;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.time {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 20px;
+  vertical-align: middle;
 }
 
 footer {
   text-align: center;
+  color: rgba(0, 0, 0, 0.5);
 }
