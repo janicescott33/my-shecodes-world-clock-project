@@ -11,26 +11,28 @@
   <body>
     <div class="world-clock-container">
       <h1>World Clock</h1>
-      <select name="cities" id="cities">
+      <select name="city" id="city-select">
         <option value="">Enter a city</option>
-        <option value="London">London</option>
-        <option value="New York">New York</option>
-        <option value="Paris">Paris</option>
-        <option value="Tokyo">Tokyo</option>
+        <option value="Europe/Madrid">Madrid</option>
+        <option value="America/New_York">New York</option>
+        <option value="Pacific/Honolulu">Honolulu</option>
+        <option value="Asia/Tokyo">Tokyo</option>
       </select>
-      <div class="city-info">
-        <div class="city-date">
-          <h2>London 🇬🇧</h2>
-          <div class="date" id="london-date">10 September 2024</div>
+      <div id="cities">
+        <div class="city-info" id="london">
+          <div class="city-date">
+            <h2>London 🇬🇧</h2>
+            <div class="date" id="london-date"></div>
+          </div>
+          <div class="time" id="london-time"></div>
         </div>
-        <div class="time" id="london-time"></small></div>
-      </div>
-      <div class="city-info">
-        <div class="city-date">
-          <h2>Paris 🇫🇷</h2>
-          <div class="date" id="paris-date">10 September 2024</div>
+        <div class="city-info" id="paris">
+          <div class="city-date">
+            <h2>Paris 🇫🇷</h2>
+            <div class="date" id="paris-date"></div>
+          </div>
+          <div class="time" id="paris-time"></div>
         </div>
-        <div class="time" id="paris-time"></div>
       </div>
     </div>
     <footer>
