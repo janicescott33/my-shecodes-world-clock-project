@@ -35,11 +35,13 @@ function updateCity(event) {
   let citiesElement = document.querySelector("#cities");
   citiesElement.innerHTML = `<div class="city-info">
   <div class="city-date">
-  <h2>${cityName}</h2>
-  <div class="date" id="london-date">${cityDate}</div>
+    <h2>${cityName}</h2>
+    <div class="date" id="london-date">${cityDate}</div>
   </div>
   <div class="time" id="london-time">${cityTime}</div>
-  </div>`;
+  </div>
+  <a href="index.html">All cities</a>
+  `;
 }
 
 updateTime();
